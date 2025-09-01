@@ -1,0 +1,37 @@
+Esercizi di JavaScript – Modulo Base
+
+In questa raccolta trovi una serie di esercizi pratici da proporre agli studenti sugli argomenti trattati finora: variabili, tipi primitivi, operatori, funzioni e debug con console.log.
+
+Variabili (let, const, var)
+1. Dichiara una variabile con var, una con let e una con const. Prova a riassegnare i valori e spiega cosa succede.
+2. Scrivi un ciclo for con var e uno con let. Stampa il valore dell’indice dentro un setTimeout e osserva la differenza.
+3. Mostra l’effetto dell’hoisting dichiarando una variabile con var e usandola prima della dichiarazione.
+
+Tipi primitivi
+4. Crea una stringa, un numero, un booleano, null e undefined. Usa typeof per verificarne i tipi.
+5. Mostra un esempio in cui 0.1 + 0.2 non dà il risultato atteso. Perché succede?
+6. Usa Boolean() per convertire diversi valori (0, '', '0', [], {}) e spiega il risultato.
+7. Dimostra la differenza tra null e undefined in una variabile non inizializzata e in una proprietà mancante.
+
+Operatori
+8. Scrivi un’espressione che determina se un numero è pari o dispari usando l’operatore %.
+9. Dimostra la differenza tra == e === con alcuni esempi.
+10. Usa l’operatore ternario per restituire 'maggiorenne' o 'minorenne' in base a un’età.
+11. Mostra la differenza tra || e ?? usando una variabile con valore 0 e una con valore undefined.
+
+Funzioni
+12. Scrivi una funzione dichiarata che calcoli la media di due numeri.
+13. Riscrivi la stessa funzione come espressione di funzione e come arrow function.
+14. Scrivi una funzione che prenda in input un array di numeri e restituisca un nuovo array con tutti i numeri raddoppiati.
+15. Crea una funzione che usi un parametro con valore di default.
+
+Debug con console.log
+16. Scrivi una funzione che calcoli l’area di un rettangolo e usa console.log per stampare base, altezza e risultato.
+17. Stampa in console un oggetto utente con console.log e poi con console.table. Nota la differenza.
+18. Inserisci console.log all’interno di un ciclo for per capire come cambiano i valori passo passo.
+19. Debugga questa funzione con console.log per vedere i passaggi:
+function mistero(x) {
+  let y = x * 2;
+  return y - 1;
+}
+mistero(5);
